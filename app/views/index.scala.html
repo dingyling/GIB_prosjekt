@@ -2,73 +2,74 @@
 
 @main("Varer") {
 
-        <body>
+    <body>
 
-		 <div class="container">
-       		 <div class="row">
-           		<div class="col-xs-12">
-                	<h1 class="text-center">Finn dine varer</h1>
-            	</div>
-           			<div class="row">
-                	<div class="col-xs-8">
-                    	<h3>Butikk-kart</h3>
-                    	<div id="leaflet-kart">
-                        	
-                    	</div>
-                	</div>
-                	<div class="col-xs-4">
-                    	<div class = "row">
-                        	<div class="col-xs-11">
-                            	<div class="Vare-liste">
-                                	<h3 class="text-center"> Legg til vare </h3>
-                        		<ul>
-        					<li>Jernvare</li>
-        					<li>Elektro</li>
-        					<li>Multimedia</li>
-        					<li>Hjem</li>
-        					<li>Fritid</li>
-      					</ul>
-                            	</div>
-                        	</div>
-                        	<div class="col-xs-1">
-                        		<div >
-                        			
-                        		</div>	
-                        	</div>
-                    	</div>
-                    	<div class="row">
-                        	<div class="col-xs-12">
-                            	<div class="Handleliste">
-                                	<h3 class="text-center">Handleliste</h3>
-                                	<ul class="Valgte varer">
-                                    	<li class="varer">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                <h1 class="text-center">Finn dine varer</h1>
+            </div>
+                <div class="row">
+                    <div class="col-xs-8">
+                        <h3>Butikk-kart</h3>
+                        <div id="leaflet-kart">
 
-                                    	</li>
+                        </div>
+                    </div>
+                    <div class="col-xs-4">
+                        <div class = "row">
+                            <div class="col-xs-11">
+                                <div class="Vare-liste">
+                                    <h3 class="text-center"> Legg til vare </h3>
+                                    <ul>
+                                        <li>Jernvare</li>
+                                        <li>Elektro</li>
+                                        <li>Multimedia</li>
+                                        <li>Hjem</li>
+                                        <li>Fritid</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-xs-1">
+                                <div >
 
-                                	</ul>
-                            	</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <div class="Handleliste">
+                                    <h3 class="text-center">Handleliste</h3>
+                                    <ul class="Valgte varer">
+                                        <li class="varer">
 
-                        	</div>
-                    	</div>
-                	</div>
-            	</div>
+                                        </li>
 
-        	</div>
+                                    </ul>
+                                </div>
 
-        	<script>
-            var map = L.map('leaflet-kart', {
-            maxZoom: 24,
-            minZoom: 1,
-            crs: L.CRS.Simple
-            }).setView([0, 0], 1);
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-            map.setMaxBounds(new L.LatLngBounds([0,500], [500,0]));
+        <script>
+        var map = L.map('leaflet-kart', {
+        maxZoom: 24,
+        minZoom: 1,
+        zoomControl: false,
+        crs: L.CRS.Simple
+        }).setView([0, 0], 1);
 
-            var imageUrl = 'http://i57.tinypic.com/2i8deac.png'
-            var imageBounds = [[500,0], [0,390]];
+        map.setMaxBounds(new L.LatLngBounds([0,500], [500,0]));
 
-            L.imageOverlay(imageUrl, imageBounds).addTo(map);
-        	</script>
+        var imageUrl = 'http://i57.tinypic.com/2i8deac.png'
+        var imageBounds = [[500,0], [0,380]];
+
+        L.imageOverlay(imageUrl, imageBounds).addTo(map);
+        </script>
 
     </body>
 
