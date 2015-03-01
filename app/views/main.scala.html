@@ -52,15 +52,16 @@
 
         <script>
         var map = L.map('leaflet-kart', {
-        maxZoom: 24,
+        maxZoom: 1,
         minZoom: 1,
+        zoomControl: false,
         crs: L.CRS.Simple
         }).setView([0, 0], 1);
 
         map.setMaxBounds(new L.LatLngBounds([0,500], [500,0]));
 
-        var imageUrl = 'http://www.lib.utexas.edu/maps/historical/newark_nj_1922.jpg'
-        var imageBounds = [[250,0], [0,250]];
+        var imageUrl = 'http://i57.tinypic.com/2i8deac.png'
+        var imageBounds = [[500,0], [0,390]];
 
         L.imageOverlay(imageUrl, imageBounds).addTo(map);
         </script>
