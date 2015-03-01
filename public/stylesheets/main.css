@@ -1,3 +1,24 @@
 #leaflet-kart {
     height: 1000px;
 }
+
+
+body{
+
+	background-image:
+ 	url('http://goo.gl/ODpi3y');
+}
+ 
+
+.butikk-kart {
+	text-align: center;
+
+}
+
+.butikk-kart h3{
+	font-size: 30px;
+}
+
+.leaflet-kart {
+	height: 100px;
+}
