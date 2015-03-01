@@ -5,6 +5,29 @@
 
 }
 
+.vareliste {
+    background-color: cadetblue;
+    border: 2px solid;
+    border-radius: 10px;
+}
+
+.row {
+    padding-bottom: 20px;
+}
+
+.handleliste {
+    background-color: darkcyan;
+    border: 2px solid;
+    border-radius: 10px;
+
+}
+
+h1 {
+    background-color: cornflowerblue;
+    border: 2px solid;
+    border-radius: 10px;
+}
+
 h3 {
     text-align: center;
 }

@@ -5,60 +5,54 @@
     <body>
 
         <div class="container">
+            <h1 class="text-center">Finn dine varer</h1>
             <div class="row">
-                <div class="col-xs-12">
-                <h1 class="text-center">Finn dine varer</h1>
-            </div>
-                <div class="row">
-                    <div class="col-xs-8">
-                        <h3>Butikk-kart</h3>
-                        <div id="leaflet-kart">
+                <div class="col-xs-8">
+                    <h3>Butikk-kart</h3>
+                    <div id="leaflet-kart">
+                    </div>
+                </div>
+                <div class="col-xs-4">
+                    <div class = "row">
+                        <div class="col-xs-12">
+                            <div class="vareliste">
+                                <h3 class="text-center"> Legg til vare </h3>
+                                <div class="search">
+                                    <input type="text" name="search" placeholder="Søk etter vare her"/>
+                                    <button type="button">Søk</button>
+                                </div>
+                                <ul>
+                                    <li>Jernvare</li>
+                                    <li>Elektro</li>
+                                    <li>Multimedia</li>
+                                    <li>Hjem</li>
+                                    <li>Fritid</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xs-1">
+                            <div >
 
+                            </div>
                         </div>
                     </div>
-                    <div class="col-xs-4">
-                        <div class = "row">
-                            <div class="col-xs-11">
-                                <div class="Vare-liste">
-                                    <h3 class="text-center"> Legg til vare </h3>
-                                    <div class="search">
-                                        <form action="#">
-                                        <input type="text" name="search" placeholder="Søk etter vare her"/>
-                                        <input type="sumbmit" value="Search here"/>
-                                        </form> 
-                                    </div>
-                                    <ul>
-                                        <li>Jernvare</li>
-                                        <li>Elektro</li>
-                                        <li>Multimedia</li>
-                                        <li>Hjem</li>
-                                        <li>Fritid</li>
-                                    </ul>
-                                </div>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="handleliste">
+                                <h3 class="text-center">Handleliste</h3>
+                                <ul class="Valgte varer">
+                                    <li class="varer">
+
+                                    </li>
+
+                                </ul>
                             </div>
-                            <div class="col-xs-1">
-                                <div >
 
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-xs-12">
-                                <div class="Handleliste">
-                                    <h3 class="text-center">Handleliste</h3>
-                                    <ul class="Valgte varer">
-                                        <li class="varer">
-
-                                        </li>
-
-                                    </ul>
-                                </div>
-
-                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
         </div>
 
         <script>
@@ -72,7 +66,7 @@
         map.setMaxBounds(new L.LatLngBounds([0,500], [500,0]));
 
         var imageUrl = 'http://i57.tinypic.com/2i8deac.png'
-        var imageBounds = [[500,0], [0,380]];
+        var imageBounds = [[500,0], [0,370]];
 
         L.imageOverlay(imageUrl, imageBounds).addTo(map);
         </script>
