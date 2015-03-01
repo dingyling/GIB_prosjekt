@@ -19,7 +19,7 @@
                                 <h3 class="text-center"> Legg til vare </h3>
                                 <div class="search">
                                     <input type="text" name="search" placeholder="Søk etter vare her"/>
-                                    <button type="button">Søk</button>
+                                    <button class="knapp" >Søk</button>
                                 </div>
                                 <ul>
         					        <li>Jernvare
@@ -44,7 +44,7 @@
                                    </li>
         					       <li>Fritid
                                         <ul class="fritid">
-                                            <li>skrivebok</li>
+                                            <li>Skrivebok</li>
                                         </ul>
                                    </li>
       					         </ul>
@@ -73,23 +73,9 @@
                 </div>
             </div>
         </div>
-        </div>
 
-        <script>
-        var map = L.map('leaflet-kart', {
-        maxZoom: 24,
-        minZoom: 1,
-        zoomControl: false,
-        crs: L.CRS.Simple
-        }).setView([0, 0], 1);
 
-        map.setMaxBounds(new L.LatLngBounds([0,500], [500,0]));
-
-        var imageUrl = 'http://i57.tinypic.com/2i8deac.png'
-        var imageBounds = [[500,0], [0,370]];
-
-        L.imageOverlay(imageUrl, imageBounds).addTo(map);
-        </script>
+        <script src="@routes.Assets.at("javascripts/app.js")" type="text/javascript"></script>
 
     </body>
 
