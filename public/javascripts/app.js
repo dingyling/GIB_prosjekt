@@ -1,7 +1,8 @@
 var init = function() {
-    $('.knapp').click(function() {
-        alert("I am an alert box!");
+    $('.søkknapp').click(function() {
+        alert("Du kan ikke søke enda, jobber med saken!");
     });
+
 
     var map = L.map('leaflet-kart', {
         maxZoom: 24,

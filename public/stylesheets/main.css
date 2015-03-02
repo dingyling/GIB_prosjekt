@@ -1,8 +1,7 @@
 #leaflet-kart {
     height: 1000px;
-    border: 5px solid;
+    border: 5px solid #b5bdb2;
     border-radius: 10px;
-    border-color: darkgrey;
 }
 
 .search {
@@ -16,20 +15,18 @@
 
 .handleliste {
     background-color: white;
-    border: 2px solid;
+    border: 2px solid #b5bdb2;
     border-radius: 10px;
-    border-color: darkgrey;
 }
 .vareklasse {
     background-color: white;
-    //border: 2px solid;
+    border: 2px solid #b5bdb2;
     border-radius: 10px;
-    border-color: darkgrey;
 }
 
 
 h1 {
-    border: 2px solid;
+    border: 2px solid #b5bdb2;
     border-radius: 10px;
 
 }
@@ -41,3 +38,8 @@ h3 {
 .leaflet-kart {
 	height: 100px;
 }
+
+.add img{
+     width: 10px;
+     height: 10px;
+ }
