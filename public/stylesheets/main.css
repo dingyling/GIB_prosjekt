@@ -10,13 +10,6 @@
     padding-bottom: 10px;
 }
 
-.vareliste {
-    background-color: white;
-    border: 2px solid;
-    border-radius: 10px;
-    border-color: darkgrey;
-}
-
 .row {
     padding-bottom: 20px;
 }
@@ -27,11 +20,18 @@
     border-radius: 10px;
     border-color: darkgrey;
 }
+.vareklasse {
+    background-color: white;
+    //border: 2px solid;
+    border-radius: 10px;
+    border-color: darkgrey;
+}
+
 
 h1 {
-    background-color: cornflowerblue;
     border: 2px solid;
     border-radius: 10px;
+
 }
 
 h3 {
@@ -40,7 +40,4 @@ h3 {
 
 .leaflet-kart {
 	height: 100px;
-}
-.varemeny {
-
 }
