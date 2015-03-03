@@ -9,10 +9,9 @@ public class Vare {
 		DatabaseVarer db= new DatabaseVarer();
 		String navn= db.getVareNavn(vareID);
 		String pris= db.getPrice(vareID);
-		String kategori=db.getKategor(vareID);
+		String kategori= db.getKategor(vareID);
 		String xValue = db.getPlaceX(vareID);
 		String yValue = db.getPlaceY(vareID);
-		String zValue =db.getPlaceZ(vareID);	
+		String zValue = db.getPlaceZ(vareID);
 	}
-  
 }
