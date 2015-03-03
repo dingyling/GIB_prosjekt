@@ -12,6 +12,7 @@ var init = function() {
         maxZoom: 1,
         minZoom: 1,
         zoomControl: false,
+        dragging: false,
         crs: L.CRS.Simple
     }).setView([0, 0], 1);
 
