@@ -4,9 +4,9 @@ var init = function() {
     });
 
     $('.loginknapp').click(function() {
-
+        $('.login').fadeOut(800);
+        $('.loggetinn').fadeIn(900);
     });
-
 
     var map = L.map('leaflet-kart', {
         maxZoom: 1,

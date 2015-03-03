@@ -30,6 +30,13 @@
     border-radius: 10px;
 }
 
+.loggetinn {
+    background-color: white;
+    border: 2px solid #b5bdb2;
+    border-radius: 10px;
+    display: none;
+}
+
 .loginknapp {
     width: 49%;
 }
