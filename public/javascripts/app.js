@@ -5,7 +5,7 @@ var init = function() {
 
 
     var map = L.map('leaflet-kart', {
-        maxZoom: 24,
+        maxZoom: 1,
         minZoom: 1,
         zoomControl: false,
         crs: L.CRS.Simple
