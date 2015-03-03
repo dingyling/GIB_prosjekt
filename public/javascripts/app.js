@@ -3,6 +3,10 @@ var init = function() {
         alert("Du kan ikke søke enda, jobber med saken!");
     });
 
+    $('.loginknapp').click(function() {
+
+    });
+
 
     var map = L.map('leaflet-kart', {
         maxZoom: 1,
