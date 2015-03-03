@@ -16,11 +16,11 @@ public class DatabaseVarer {
 		String sql= "INSERT INTO Users Values ("+epost+","+passord+");";
 		db.updateQuery(sql);
 	}
-	
-	public ArrayList<String> getAlleVarerFromHandleliste(String epost){
-		String sql = ""
-	}
-	
+
+//	public ArrayList<String> getAlleVarerFromHandleliste(String epost){
+//		String sql = "";
+//	}
+
 	public String getPassword(String epost){
 		String password=null;
 		String sql = "select passord from Varer where epost= "+epost+";";

@@ -24,6 +24,19 @@
     border-radius: 10px;
 }
 
+.login {
+    background-color: white;
+    border: 2px solid #b5bdb2;
+    border-radius: 10px;
+}
+
+.loginknapp {
+    width: 49%;
+}
+
+.registrerknapp {
+    width: 49%;
+}
 
 h1 {
     border: 2px solid #b5bdb2;

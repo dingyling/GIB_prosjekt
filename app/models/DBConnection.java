@@ -14,13 +14,13 @@ public class DBConnection {
 		 */
 
 		private static Connection connection = null;
-		private static String connectionURL = "jdbc:mysql://mysql.stud.ntnu.no:3306/christdj_fp";
+		private static String connectionURL = "jdbc:mysql://mysql.stud.ntnu.no:3306/simenha_gib";
 		@SuppressWarnings("unused")
 		private static Statement stat = null;
-		private static String user = "christdj";
-		private static String pw = "gruppe41";
+		private static String user = "simenha_gib";
+		private static String pw = "gib2";
 		@SuppressWarnings("unused")
-		private static String database = "christdj_fp";
+		private static String database = "simenha_gib";
 
 		/**
 		 * Logger p� databasen.
